@@ -9,7 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var playercard = "card5"
     @State private var cpucard = "card4"
-    @State private var playerscore=0
+    @State private var playerscore=5
     @State private var cpuscore=0
 
     var body: some View {
